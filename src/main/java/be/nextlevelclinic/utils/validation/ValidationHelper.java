@@ -1,4 +1,4 @@
-package be.nextlevelclinic.utils;
+package be.nextlevelclinic.utils.validation;
 
 public class ValidationHelper {
     public static void validate(double value, ValidationRule rule,

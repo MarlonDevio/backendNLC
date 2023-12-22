@@ -1,9 +1,8 @@
 package be.nextlevelclinic.controller;
 
-import be.nextlevelclinic.model.BMI;
-import be.nextlevelclinic.model.BmiClassification;
-import be.nextlevelclinic.model.Customer;
-import be.nextlevelclinic.view.ConsoleView;
+import be.nextlevelclinic.model.bmi.BMI;
+import be.nextlevelclinic.model.bmi.BmiClassification;
+import be.nextlevelclinic.model.customer.Customer;
 
 public class BmiController {
 

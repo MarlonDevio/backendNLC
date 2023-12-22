@@ -1,4 +1,4 @@
-package be.nextlevelclinic.model;
+package be.nextlevelclinic.model.bmi;
 
 /**
  * Enum representing BMI classifications.
@@ -18,7 +18,7 @@ public enum BmiClassification {
      * @param min The minimum BMI value for this classification.
      * @param max The maximum BMI value for this classification.
      */
-    BmiClassification(double min, double max) {
+     BmiClassification(double min, double max) {
         this.min = min;
         this.max = max;
     }

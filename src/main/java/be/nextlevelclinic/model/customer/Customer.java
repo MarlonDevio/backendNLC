@@ -1,4 +1,6 @@
-package be.nextlevelclinic.model;
+package be.nextlevelclinic.model.customer;
+
+import java.util.Locale;
 
 /**
  * Represents a customer with various personal attributes such as weight, height, age, and name.
@@ -6,6 +8,7 @@ package be.nextlevelclinic.model;
  */
 public class Customer {
     private double weight;
+    private String goal;
     private double height;
     private double sportFrequency;
     private double bmi;
@@ -168,5 +171,14 @@ public class Customer {
 
     public void setBmiClassification(String bmiClassification) {
         this.bmiClassification = bmiClassification;
+    }
+
+
+    public void setGoal(String goal) {
+        this.goal = goal.toLowerCase();
+    }
+
+    public String getGoal(){
+        return this.goal;
     }
 }

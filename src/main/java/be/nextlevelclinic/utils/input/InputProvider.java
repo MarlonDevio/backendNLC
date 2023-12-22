@@ -1,4 +1,4 @@
-package be.nextlevelclinic.utils;
+package be.nextlevelclinic.utils.input;
 
 import java.util.Scanner;
 

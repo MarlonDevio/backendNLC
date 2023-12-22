@@ -1,6 +1,6 @@
-package be.nextlevelclinic.utils;
+package be.nextlevelclinic.utils.bmi;
 
-import be.nextlevelclinic.model.BmiClassification;
+import be.nextlevelclinic.model.bmi.BmiClassification;
 
 public class ClassifiyBMI {
     BmiClassification classification;
