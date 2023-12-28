@@ -1,13 +1,5 @@
 package be.nextlevelclinic;
 
-import be.nextlevelclinic.controller.BmiController;
-import be.nextlevelclinic.controller.CustomerController;
-import be.nextlevelclinic.model.customer.Customer;
-import be.nextlevelclinic.model.customer.CustomerSession;
-import be.nextlevelclinic.model.nutrition.SimpleCalorieIntakeCalculator;
-import be.nextlevelclinic.utils.bmi.CalculateBMI;
-import be.nextlevelclinic.view.ConsoleView;
-
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
