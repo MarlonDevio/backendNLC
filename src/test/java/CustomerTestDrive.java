@@ -1,4 +1,3 @@
-import be.nextlevelclinic.calculator.Calculator;
 import be.nextlevelclinic.customer.Customer;
 
 public class CustomerTestDrive {
